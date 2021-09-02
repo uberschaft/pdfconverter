@@ -33,7 +33,7 @@ while (pdfcount < len(pdf_list)):
 
     workdir = os.getcwd()+"/"
 
-    print("**************PDF to Non-Selectable PDF Converter**************\n**************PDF being processed: "+pdf_list[pdfcount]+"**************")
+    print("**************PDF to Non-Selectable PDF Converter**************\n**************PDF to be processed: "+pdf_list[pdfcount]+"**************")
 
     input_pdf = pdf_list[pdfcount]
     dirName = workdir+input_pdf
